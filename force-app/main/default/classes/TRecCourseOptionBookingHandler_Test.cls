@@ -19,7 +19,7 @@ private class TRecCourseOptionBookingHandler_Test {
         TREX1__Course_Option__c testCourseOption = new TREX1__Course_Option__c(
             Name = 'Test Course Option',
             TREX1__Start_Date__c = Date.today(),
-            TREX1__End_Date__c = Date.today().addDays(7),
+            TREX1__End_Date__c = Date.today().addDays(6),
             TREX1__Start_Time__c = '1:00 PM',
             TREX1__End_Time__c = '2:00 PM',
             TREX1__Day_of_Week__c = 'Monday;Wednesday',
